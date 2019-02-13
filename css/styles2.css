@@ -1,0 +1,44 @@
+div {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  transform: skewX(20deg);
+}
+
+.rotate {
+  background-color: transparent;
+  outline: 2px dashed;
+  transform: rotate(45deg);
+}
+
+.rotate-translate {
+  background-color: pink;
+  transform: rotate(45deg) translateX(180px);
+}
+
+.translate-rotate {
+  background-color: gold;
+  transform: translateX(180px) rotate(45deg);
+}
+
+transform {
+    -ms-transform: translate(50px,100px);
+    position: absolute;
+    top: 80px;
+}
+
+
+/*Position changes from under the rotated to on top of it.*/
+
+/*
+The rotate() CSS function defines a transformation that rotates 
+an element around a fixed point on the 2D plane, without deforming it.
+*/
+
+/*
+The translate() CSS function repositions an element in the horizontal 
+and/or vertical directions.
+*/
